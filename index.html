@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <title>Happy Birthday!!! :)</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <audio class="song" loop autoplay>
+        <source src="music/ilove.mp3">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+
+    <div class="form-container">
+        <h1>Selamat Datang ~ ~</h1><br>
+
+
+        <!-- Step 1: Form Input Nama -->
+        <div id="step1" class="step-container pb-2 pt-2 active">
+            <h4>Masukkan Nama Kamu</h4>
+            <form id="verificationName">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="nameInput" placeholder="nama kamu..." required>
+                    <small id="error-message" class="form-text text-danger" style="display: none;">Nama salah! Coba masukkan nama yang benar.</small>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Lanjutkan</button>
+            </form>
+        </div>
+    
+        <!-- Step 2: Form Pilih Jawaban Pacar Faisal -->
+        <div id="step2" class="step-container" style="display: none;">
+            <h4>Is your Aiman's Girlfriend?</h4>
+            <form id="verification">
+                <div class="form-group">
+                    <select id="isPartner" class="form-control" required>
+                        <option value="" disabled selected>Pilih jawaban</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">Verification</button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="one">
+            <h1 class="one">
+                Hi, <br>
+                <span id="name">My Girlfriend, Aina Sofea 💗💗</span><br><br>
+            </h1>
+            <p class="two" id="greetingText">The most beatiful girls in the world but after my Mama la!</p>
+        </div>
+
+        <div class="three">
+            <p>It's for you Sayanggg !! :D 🎉 🎉</p>
+        </div>
+
+        <div class="four">
+            <div class="text-box">
+                <!-- Left GIF -->
+                <img class="gif-left" src="images/cat-love2.gif" alt="Cute Gif Left">
+                
+                <!-- Chatbox Text -->
+                <p class="hbd-chatbox">
+                    Hai sayang, first of all I make this special for you atas tanda permintaan maaf I dekat you. I know you selalu cakap I takde effort untuk you. Today, I effort buat ni semua untuk you. I know I make a lot of mistakes, always makes your cry and always hurt your feelings. I minta maaf sayang. I nak you tahu yang I betul betul sayangkan you. I will try to improve myself for you okay and dont worry my love is just for you only sayang.
+                    Dari first kenal sampailah sekarang, you treat i baik sangat. Thanks sayang sebab selalu treat i dengan baik, selalu ada dengan I and selalu caring pasal I walaupun I selalu tak treat you baik baik. I harap relay kita ni akan kekal lama sampai kita kawin HAHA. Syukur Allah hadirkan orang yang baik macam sayang dalam hidup I. THANKS FOR EVERYTHING SAYANGGG!!. Okay, that's it. Ada lagi tau tunggu sekejap.
+                </p>
+                
+                <!-- Right GIF -->
+                <img class="gif-right" src="images/cat-love.gif" alt="Cute Gif Right">
+                
+                <p class="fake-btn">Send</p>
+            </div>
+        </div>
+        
+
+        <div class="five">
+            <p class="idea-1">Jalan kita memang tak selalu mudah...</p>
+            <p class="idea-2">Tapi izinkan aku terus berjuang, menemanimu setiap langkahnya.</p>
+            <p class="idea-3">
+            boyfriendmu yang masih terus belajar untuk menjadi yang terbaik<br>
+                <strong>kerana....</strong>
+                
+            </p>
+            <p class="idea-4"></p>
+            <p class="idea-5">
+                
+                <span>:)</span>
+            </p>
+            <p class="idea-6">
+                <span>BECAUSE</span>
+               
+            </p>
+        </div>
+
+        <div class="six">
+            <img src="images/gf 1.jpg" alt="profile" class="profile-picture" id="imagePath" />
+            <img src="images/hat.svg" alt="hat" class="hat" />
+            <!-- <img src="img/hat.svg" alt="hat" class="hats text-end" /> -->
+            <div class="wish">
+                <h3 class="wish-hbd">I LOVE YOUUU!</h3>
+                <h5 id="wishText">Semoga Kita berhasil capai tujuan kita bersama yaa sayanggg! ;)</h5>
+            </div>
+        </div>
+
+        <div class="seven">
+            <div class="baloons">
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon2.svg" alt="" />
+                <img src="images/ballon1.svg" alt="" />
+                <img src="images/ballon3.svg" alt="" />
+            </div>
+        </div>
+
+        <div class="eight">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="20" />
+            </svg>
+        </div>
+
+        <div class="nine">
+            <p>Okay, now come back and tell me if you liked it.</p>
+            <p id="replay">Or click, if you want to watch it again.</p>
+            <p class="last-smile">:)</p>
+        </div>
+    </div>
+
+</body>
+<!-- Greensock -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<!-- Sweetalert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="application/javascript" src="./script/main.js"></script>
+
+</html>
